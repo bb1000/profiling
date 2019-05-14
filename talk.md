@@ -6,6 +6,7 @@
 BB1000 Programming in Python
 KTH
 
+layout: false
 ---
 
 ## Learning Goals
@@ -16,7 +17,6 @@ KTH
 
 ---
 
-layout: false
 
 ## Profiling
 
