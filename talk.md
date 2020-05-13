@@ -1,12 +1,33 @@
+<style>
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<link rel="stylesheet" href="/js/highlight/styles/gruvbox-light.css">
+<script src="/js/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
 # Profiling
 
 BB1000 Programming in Python
 KTH
 
+---
+
 layout: false
+
+
+# TOC
+* [Profiling](#1)
+  + [Learning Goals](#2)
+  + [Profiling](#3)
+  + [Line profiling](#6)
+
 ---
 
 ## Learning Goals
