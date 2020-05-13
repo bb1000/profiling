@@ -1,8 +1,10 @@
 index.html: talk.md
 	python refreeze/freeze.py
+	perl -pi -e "s,/js/highlight/,/profiling/js/highlight/," index.html
+	
 
 test:
-	python -m doctest talk.md
+	python -m pytest -vx --doctest-glob '*.md'
 
 RANDOM_PORT=`python -c 'import random; print(int(5000+ 5000*random.random()))'`
 
